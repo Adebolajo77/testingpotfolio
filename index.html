@@ -3,40 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adebolajo David Sunday - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>David Sunday Adebolajo - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            font-size: 24px;
             color: #333;
         }
 
-        p {
-            font-size: 16px;
-            color: #666;
+        header {
+            text-align: center;
+            background-color: #3498db;
+            color: #fff;
+            padding: 40px 0;
         }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #3498db;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        /* Add style for the profile picture */
+        .profile-picture {
+            border-radius: 50%;
+            width: 150px; /* Adjust the size as needed */
+            height: 150px; /* Adjust the size as needed */
+        }
+
+        section {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 0;
+        }
+        #projects {
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .project-card {
+            width: calc(100.00% - 20px); /* Adjust the width as needed for your layout */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            align-items: center;
+        }
+        
+        .project-card img {
+            max-width: 100%;
+        }
+        
+        .project-card h3 {
+            font-size: 20px;
+            color: #3498db;
+        }
+        
+        .project-card video {
+            max-width: 100%;
+        }
+        .media-container {
+            display: flex;
+            align-items: center; /* Vertically align image and video */
+        }
+        
+        /* Style the image and video individually as needed */
+        .media-container img {
+            max-width: 50%; /* Adjust as needed to control their size */
+        }
+        
+        .media-container video {
+            max-width: 50%; /* Adjust as needed to control their size */
+        }
+
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Adebolajo David Sunday</h1>
-        <p>
-            I am a dedicated and highly skilled Electrical/Electronics engineer with expertise in embedded system design, industrial automation, and machine learning. Proficient in various programming languages, PCB design, and high-speed circuit design. Accomplished in leading projects, ensuring validation, and managing project lifecycles. Seeking a challenging role in embedded system design.
-        </p>
-    </div>
+    <header>
+        <!-- Add your profile picture here -->
+        <img class="profile-picture" src="profilepix.jpg" alt="Adebolajo David Sunday">
+        <h1>David Sunday Adebolajo</h1>
+        <p>Electrical/Electronics Engineer | Embedded System Design | Industrial Automation | Machine Learning</p>
+    </header>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <ul>
+            <li><strong>Address:</strong> 80 Hoyle Street, Sheffield (S3 7LG), England</li>
+            <li><strong>Phone:</strong> +44 (0) 7760986608</li>
+            <li><strong>Email:</strong> <a href="mailto:adebolajos@gmail.com">adebolajos@gmail.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adebolajo-sunday-209b731a8">LinkedIn Profile</a></li>
+        </ul>
+    </section>
+
+    <section id="summary">
+        <h2>Professional Summary</h2>
+        <p>I am a dedicated and highly skilled Electrical/Electronics engineer with expertise in embedded system design, industrial automation, and machine learning. Proficient in various programming languages, PCB design, and high-speed circuit design, I have led projects, ensured validation, and managed project lifecycles. I am passionate about pursuing a challenging role in embedded system design.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming of controllers: NVIDIA Jetson, ARM, PIC, ATMEGA, STM32, ExpressIF (ESP), RASPBERRY PI, FPGA</li>
+            <li>Programming languages: C/C++, C#, Java, Python, shell, Verilog, stl, ladder logic, function blocks.</li>
+            <li>PCB Design: Altium studio, proteus, kitcad</li>
+            <li>Embedded system communication: Design integration with wireless network, GSM, LTE, GPS, WIFI, BT, SPI, USART, 12S, and I2C</li>
+            <li>Software Tools: Micro python, Arduino, Atmel studio, Visual Studio Code, PyCharm, Android Studio, Visual Studio, etc.</li>
+            <li>Machine learning: Keras, PyTorch, TensorFlow, cafe, Number, Cafe, OpenCV, etc.</li>
+            <li>MLOps: Jenkins, docker, Kubernetes, Prometheus, grafana, ArgoCD</li>
+            <li>Embedded systems and software integration across Linux, desktop, and Android platforms</li>
+            <li>CAD and 3D printing</li>
+            <li>High-speed circuit Design</li>
+            <li>Software Development</li>
+            <li>Project Management</li>
+            <li>Technical support</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Hardware/AI/ML Engineer</h3>
+        <p><em>Uniccon Group of Companies, Abuja, Nigeria</em><br><em>December 2023 - Present</em></p>
+        <ul>
+            <li>Team lead on Computer vision and NLP engineer.</li>
+            <li>Manage AI deployment on local, cloud, and Edge systems (Nvidia Jetson).</li>
+            <li>System Integration and Design between Hardware and Software.</li>
+            <li>System Architecture Design for the First African Humanoid Robot.</li>
+            <li>Pipeline Design for Hardware and Software Continuous Integration and Deployment.</li>
+        </ul>
+        <h3>ML/Computer Vision/Deep Learning Engineer</h3>
+        <p><em>Roc4Tech | Dubai, Benue, UAE</em><br><em>October 2022 - 2023</em></p>
+        <ul>
+            <li>Deployed a comprehensive AI application for the Azena smart camera project, featuring face recognition, person detection, headcount, and object detection.</li>
+            <li>Optimized application performance by implementing most of the inferencing code in C++.</li>
+            <li>Utilized models such as YOLOv7, YOLOv5, MobileNet, and TensorFlow Lite.</li>
+        </ul>
+        <h3>Hardware Engineer</h3>
+        <p><em>Xenopsis Integrated Solutions, Makurdi, Benue, Nigeria</em><br><em>January 2018 - 2023</em></p>
+        <ul>
+            <li>Research and Development of Embedded Systems.</li>
+            <li>Construction of Sub-Station Power Monitoring System.</li>
+            <li>Design of Home Automation System (Desktop and Mobile Phone Enabled).</li>
+            <li>Design an Electronic Office Calendar and Task Manager with virtual office assistance.</li>
+            <li>Product Design and Launch: Smart Security System with facial recognition and object detection on LAN and remote monitoring systems (2020).</li>
+            <li>Worked effectively with cross-functional teams to handle mechanical, digital, and software design for customer demands.</li>
+        </ul>
+        <h3>Laboratory Technician</h3>
+        <p><em>Plateau State Polytechnic, Barkin Lardi, Nigeria</em><br><em>March 2019 - March 2020</em></p>
+        <ul>
+            <li>NYSC Service Staff.</li>
+            <li>Electrical and Electronics System Laboratory Researcher and Operator.</li>
+            <li>Experience with low-power circuit design, DC/DC converters, power management methods, audio circuit design, and analog design.</li>
+            <li>Member Project Management Committee.</li>
+            <li>Team lead development of an Automatic Car Parking System (2019).</li>
+        </ul>
+        <h3>Maintenance Intern</h3>
+        <p><em>Transmission Company of Nigeria, 33 KVA Power Distribution Sub-Station | Makurdi, Nigeria</em><br><em>July 2017 - January 2018</em></p>
+        <ul>
+            <li>Reduced risks and increased efficiency by conducting daily inspections of plant equipment.</li>
+            <li>Improved equipment function by troubleshooting issues and correcting problems to minimize downtime by 10%.</li>
+        </ul>
+        <h3>Automation Intern</h3>
+        <p><em>Nigeria Breweries Makurdi, Benue State | Makurdi, Nigeria</em><br><em>November 2016 - June 2017</em></p>
+        <ul>
+            <li>Scheduled and completed preventive maintenance on Industrial Machines.</li>
+            <li>Performed electrical repairs of production equipment, minimizing downtime by 10%.</li>
+            <li>Calibration, instrumentation, and performance optimization in machines.</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <h3>Master of Science in Automation, Control, and Robotics</h3>
+        <p><em>Sheffield Hallam University</em><br><em>February 2023 - 2024</em></p>
+        <ul>
+            <li>Dissertation: Smart camera for folk-vision on Industrial Automation.</li>
+            <li>Fundamentals on System on Chip (SoC) programming with FPGA.</li>
+            <li>PLC and HMI design for filtration substation using Siemens PLC.</li>
+        </ul>
+        <h3>Bachelor, Electrical/Electronics Engineering</h3>
+        <p><em>Federal University of Agriculture</em><br><em>March 2013 - 2018</em></p>
+        <ul>
+            <li>Course Project: Design and Construction of an Automatic Smart Changeover System (2018).</li>
+            <li>Completed electrical coursework to develop a sound understanding of electronic systems.</li>
+            <li>Internship in Nigeria Breweries Makurdi (2017).</li>
+        </ul>
+    </section>
+
+    <section id="accomplishments">
+        <h2>Accomplishments</h2>
+        <ul>
+            <li>Dual Axis tracker, Micro controller-based, minimizing the angle of incidence of light rays.</li>
+            <li>Security System IOT-based IP Camera Facial Recognition System and Object Monitoring.</li>
+            <li>Autonomous drone system for surveillance.</li>
+            <li>Mobile Robot.</li>
+            <li>Groundbreaking Automatic Disinfection Chamber: Disinfection chamber to combat the spread of COVID-19 with computer vision to ensure strict adherence to safety protocols (face mask and social distancing recognition features, inclusive) (2020).</li>
+        </ul>
+    </section>
+
+    <section id="affiliations">
+        <h2>Affiliations</h2>
+        <ul>
+            <li>Nigerian Society of Engineers (NSE)</li>
+            <li>Nigerian Institution of Electrical and Electronics Engineers (NIEEE)</li>
+            <li>Google Developers Group, Makurdi</li>
+            <li>BENCEDI Tech Hub, Makurdi</li>
+        </ul>
+    </section>
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Computer Vision</li>
+            <li>Data Science</li>
+            <li>Automation and Instrumentation</li>
+            <li>Electrical and Electronics Engineering</li>
+            <li>Product and System Design</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+
+        <h3>Automatic Disinfectant System</h3>
+        <div class="project-card">
+            <div class="media-container">
+                <img width="320" height="240" src="videos/defectant chamber.jpeg" alt="Project 1">
+                <video width="320" height="240" controls>
+                    <source src="videos/main_chamber.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="media-container">
+                <img width="320" height="240" src="videos/chamber_simple.jpeg" alt="Project 1">
+                <video width="320" height="240" controls>
+                    <source src="videos/chamber_simple.mp4" type="video/mp4">
+                </video>
+            </div>
+            <h3>Automatic Disinfectant System</h3>
+            <p>Addressing the Challenges of COVID-19</p>
+            <p>In 2020, Team Xenopsis leveraged our expertise to develop the Automatic Disinfectant Chamber, a breakthrough technology for fighting COVID-19.</p>
+            <p>Key Features:</p>
+            <ul>
+                <li>Nose Mask Detection</li>
+                <li>Hand Sanitizer Dispensers</li>
+                <li>Advanced Disinfection Mechanism</li>
+                <li>Contactless Operation</li>
+            </ul>
+            <p>Deployment:</p>
+            <p>Our chambers were deployed in various public spaces, significantly reducing the virus's spread.</p>
+            <p>Impact:</p>
+            <p>We played a vital role in safeguarding communities, actively contributing to the fight against COVID-19.</p>
+            </div>
+        
+        <!-- Add more project cards as needed -->
+    </section>
+    
+    <!-- ... Rest of your HTML content ... -->
+    <footer>
+        <p>&copy; 2023 David Sunday Adebolajo</p>
+    </footer>
 </body>
 </html>
